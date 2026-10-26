@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_dialog_bg"
+    android:padding="40dp"
+    >
+
+
+    <TextView
+
+        android:id="@+id/fromtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="from"
+        android:fontFamily="@font/allerta"
+        android:textSize="16sp" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+        <AutoCompleteTextView
+            android:id="@+id/textinputfromlang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:hint="Language"
+            android:fontFamily="@font/allerta"
+            android:inputType="none"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <ImageView
+        android:id="@+id/swap_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_swap_vert_24"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"/>
+
+
+
+
+    <TextView
+        android:id="@+id/totext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to"
+        android:textSize="16sp"
+        android:fontFamily="@font/allerta"
+       android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+        <AutoCompleteTextView
+            android:id="@+id/textinputtolang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:hint="Language"
+            android:fontFamily="@font/allerta"
+            android:inputType="none"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/lang_btn_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:text="Done"
+        android:layout_gravity="center"
+        android:fontFamily="@font/allerta"
+        android:layout_marginTop="40dp"
+        android:enabled="false"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D9CAB3"
+        />
+
+
+
+</LinearLayout>

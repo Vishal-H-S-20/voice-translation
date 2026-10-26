@@ -1,0 +1,15 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:ellipsize="end"
+    android:fontFamily="@font/allerta"
+    android:padding="14dp"
+    android:text="textview"
+    android:textAppearance="?attr/textAppearanceSubtitle1"
+    android:textColor="#232323"
+    android:textSize="16sp"
+
+    android:textStyle="normal">
+
+</TextView>

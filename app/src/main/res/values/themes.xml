@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.VoiceTranslation" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        //when pressed
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryVariant">#3A3939</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#272727</item>
+        <item name="colorSecondaryVariant">#2C2C2C</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >#E8E6E6</item>
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="dialogAnimation">
+    <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+<item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+
+    <style name="Theme.VoiceTranslation_Main_Menu" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        //when pressed
+        //tool bar colour below
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        //floating action bar colour
+        <item name="colorSecondary">#212121</item>
+        <item name="colorSecondaryVariant">#2C2C2C</item>
+        //colour of mic inside the floating button
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >#212121</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="custom_bottomdialog" >
+
+        <item name="backgroundTint">#D9CAB3</item>
+
+    </style>
+
+</resources>
