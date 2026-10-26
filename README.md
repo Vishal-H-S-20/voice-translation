@@ -51,7 +51,10 @@ Use Android Studio's **Build → Make Project** option to check that the project
 
 ## Screenshots
 
-<img width="392" height="696" alt="image" src="https://github.com/user-attachments/assets/68760d0d-fc58-4852-b47a-0e752197c955" /><img width="395" height="836" alt="image" src="https://github.com/user-attachments/assets/db326f65-b311-4658-bfc7-232923c30dd5" />
+<img width="371" height="616" alt="image" src="https://github.com/user-attachments/assets/4de15b1d-1c57-4ea6-94e8-434cb163c5ee" />
+<img width="367" height="611" alt="image" src="https://github.com/user-attachments/assets/24418d19-a144-4bf9-9e73-9ea922b497ac" />
+<img width="370" height="631" alt="image" src="https://github.com/user-attachments/assets/f9885dbf-8a7b-4403-8939-c68e7e1f27d3" />
+
 
 
 
