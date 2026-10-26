@@ -51,7 +51,9 @@ Use Android Studio's **Build → Make Project** option to check that the project
 
 ## Screenshots
 
-Add screenshots of the app's interface here.
+<img width="392" height="696" alt="image" src="https://github.com/user-attachments/assets/68760d0d-fc58-4852-b47a-0e752197c955" /><img width="395" height="836" alt="image" src="https://github.com/user-attachments/assets/db326f65-b311-4658-bfc7-232923c30dd5" />
+
+
 
 ## Author
 
